@@ -13,6 +13,9 @@
 
 模型地址：地址
 
+通过网盘分享的文件：models
+链接: https://pan.baidu.com/s/1EnI11SIMW5BQX0aR-wOzWg?pwd=luya 提取码: luya 
+
 
 
 训练 train
@@ -566,3 +569,38 @@ def forward(self, content, style):
 
 
 
+
+
+## eg2. 怎么证明是自己训练的？
+
+
+
+实验数据集
+
+![image-20250406214451050](README/image-20250406214451050.png)
+
+实验对比10种基线方法
+
+![image-20250406214526498](README/image-20250406214526498.png)
+
+项目图
+
+![image-20250406214552290](README/image-20250406214552290.png)
+
+训练中间过程保存模型
+
+16万次迭代
+
+![image-20250406214638451](README/image-20250406214638451.png)
+
+定量比较实验计算结果
+
+![image-20250406214719818](README/image-20250406214719818.png)
+
+风格化2000张图片
+
+![image-20250406215032914](README/image-20250406215032914.png)
+
+定量评价指标计算
+
+![image-20250406215225119](README/image-20250406215225119.png)
